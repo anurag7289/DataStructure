@@ -1,0 +1,32 @@
+10 80 30 90 40 50 70 
+Pivot 70 Index 6
+10 30 40 50 80 90 70 
+Swap 80 -- 70
+partition 4
+
+10 30 40 50 70 90 80 
+Pivot 50 Index 3
+10 30 40 50 70 90 80 
+Swap 50 -- 50
+partition 3
+
+10 30 40 50 70 90 80 
+Pivot 40 Index 2
+10 30 40 50 70 90 80 
+Swap 40 -- 40
+partition 2
+
+10 30 40 50 70 90 80 
+Pivot 30 Index 1
+10 30 40 50 70 90 80 
+Swap 30 -- 30
+partition 1
+
+10 30 40 50 70 90 80 
+Pivot 80 Index 6
+10 30 40 50 70 90 80 
+Swap 90 -- 80
+partition 5
+
+sorted array
+10 30 40 50 70 80 90 
